@@ -23,6 +23,7 @@ foreach ($tentang_kami->result_array() as  $value) {
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
  	<link rel="stylesheet" href="<?php echo base_url();?>assets/bootstrap/css/bootstrap.css" />
+ 	<link rel="stylesheet" href="<?php echo base_url();?>assets/bootstrap/css/custom.css" />
   <link rel="stylesheet" href="<?php echo base_url();?>assets/style.css"/>
   <script src="<?php echo base_url();?>assets/jquery-1.9.1.min.js"></script>
 	<script src="<?php echo base_url();?>assets/bootstrap/js/bootstrap.js"></script>

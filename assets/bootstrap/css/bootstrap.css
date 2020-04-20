@@ -6332,7 +6332,7 @@ button.close {
 
 .carousel-inner {
   position: relative;
-  width: 100%;
+  width: 200%;
   overflow: hidden;
 }
 
@@ -6345,6 +6345,7 @@ button.close {
 
 .carousel-inner > .item > img,
 .carousel-inner > .item > a > img {
+
   display: block;
   height: auto;
   max-width: 100%;

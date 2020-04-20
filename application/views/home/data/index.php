@@ -101,7 +101,7 @@
           }
           ?>
         </div>
-        <h4><a href="<?php echo base_url();?>home/kamar_detail/<?php echo $value['id_kamar'];?>"><?php echo $value['nomer_kamar'];?></a></h4>
+        <h4><a href="<?php echo base_url();?>home/kamar_detail/<?php echo $value['id_kamar'];?>"></a></h4>
         <p class="price">Harga: <?php echo rupiah($value['harga_kamar']);?></p>
         <div class="listing-detail"><?php echo $value['nama_kelas_kamar'];?> </div>
         <a class="btn btn-primary" href="<?php echo base_url();?>home/kamar_detail/<?php echo $value['id_kamar'] ;?>">selengkapnya</a> 

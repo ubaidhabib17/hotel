@@ -106,7 +106,7 @@
        
         ?>
       </ol>
-      <div class="carousel-inner">
+      <div class="carousel-inner" >
        
         <?php
         $no=0;
