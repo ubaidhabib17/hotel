@@ -42,9 +42,10 @@
                         <!--properties-->
                         <div class="col-lg-4 col-sm-6">
 
-                            <div class="properties">
-                                <div class="image-holder"><img src="<?php echo base_url();?>images/kamar_gambar/<?php echo $value['
-                                    nama_kamar_gambar'];?>" class="img-responsive" alt="properties">
+                        <div class="properties">
+              <div class="image-holder"><img
+                  src="<?php echo base_url();?>images/kamar_gambar/<?php echo $value['nama_kamar_gambar'];?>"
+                  class="img-responsive" alt="properties" />
                                 <?php
                                 if($value['status_kamar']=="0"){ ?>
                                     <div class="status sold">Available</div>
