@@ -126,7 +126,7 @@ public function galeri (){
 
 }
 public function galeri_detail (){
-	$id  = $this->url->segment('3');
+	$id  = $this->uri->segment(3);
 
 		$data['tentang_kami'] = $this->home_model->TentangKami();
     	$data['galeri'] = $this->home_model->GaleriDetail($id);

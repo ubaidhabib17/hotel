@@ -138,7 +138,7 @@ foreach ($tentang_kami->result_array() as  $value) {
             
             <div class="col-lg-3 col-sm-3">
                     <h4>Tentang Kami</h4>
-                    <p><?php echo character_limiter($isi_tentang_hotel, 100);?><br><a href="<?php echo base_url();?>home/tentang_kami">Selengkapnya</a></p>
+                    <p><br><a href="<?php echo base_url();?>home/tentang_kami">Selengkapnya</a></p>
                     
             </div>
             
@@ -146,8 +146,8 @@ foreach ($tentang_kami->result_array() as  $value) {
                     <h4>Social Media</h4>
                     <a href="<?php echo $fb;?>"><img src="<?php echo base_url();?>images/facebook.png" alt="facebook"></a>
                     <a href="<?php echo $tw;?>"><img src="<?php echo base_url();?>images/twitter.png" alt="twitter"></a>
-                   <!--  <a href="#"><img src="<?php echo base_url();?>images/linkedin.png" alt="linkedin"></a>
-                    <a href="#"><img src="<?php echo base_url();?>images/instagram.png" alt="instagram"></a> -->
+                    <!-- <a href="#"><img src="<?php echo base_url();?>images/linkedin.png" alt="linkedin"></a> -->
+                    <!-- <a href="<?php echo $ig;?>"><img src="<?php echo base_url();?>images/instagram.png" alt="instagram"></a> -->
             
             </div>
 

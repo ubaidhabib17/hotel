@@ -3,6 +3,7 @@
 
     <h2>Galeri</h2>
 </div>
+</div>
 <!-- banner -->
 
 
