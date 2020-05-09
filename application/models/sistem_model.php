@@ -196,6 +196,7 @@ class sistem_model extends CI_Model{
         //Awal New Reservasi
         function NewReservasi(){
             return $this->db->query("select a.*,b.* from tbl_reservasi a
+            join tbl_kamar b on a.kamar_id=b.id_kamar
             where a.status_reservasi='0' or a.status_reservasi='1' or a.status_reservasi='2'
             order by a.id_reservasi desc");
         }
